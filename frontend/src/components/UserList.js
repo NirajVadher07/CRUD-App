@@ -35,7 +35,7 @@ const UserList = () => {
 
   //delete
   const handleDelete = async (userID) =>{
-    const resp = await axios.delete(`http://localhost:4000/deleteUsers/${userID}`)
+    const resp = await axios.delete(`http://localhost:4000/deleteUser/${userID}`)
     console.log(resp)
   }
 
